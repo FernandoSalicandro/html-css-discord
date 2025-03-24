@@ -50,6 +50,10 @@ a {
     flex-direction: row;
 }
 
+.ta-c {
+    text-align: center;
+}
+
 /* UTILITIES */
 
 /* backgrounds */
@@ -107,6 +111,13 @@ a {
     flex-direction: row-reverse;
 }
 
+.al-c {
+    align-content: center;
+}
+
+.jc-c {
+    justify-content: center;
+}
 .buttons-white {
     margin-right: 30px;
     padding:10px;
@@ -245,7 +256,14 @@ a {
     /* border: 1px dashed black; */
 }
 
-.two-col-2 {
+.two-col-1-first {
+    margin-bottom:132px;
+   
+    width: 40%;
+}
+
+
+.two-col-2-first {
     background-image: url('../img/item1.svg');
     background-size: cover;
     background-position: center;
@@ -253,6 +271,33 @@ a {
     min-height: 100%;
     width: 60%;
     /* background: lightblue; */
+}
+
+.two-col-2-second {
+    background-image: url('../img/item2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 60%;
+}
+
+.two-col-2-third {
+    background-image: url('../img/item3.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 60%;
+}
+
+.cta-sectiontitle {
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.cta {
+    margin-bottom: 50px;
 }
 
 
