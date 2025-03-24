@@ -1,0 +1,247 @@
+/* RESET RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;;
+}
+
+/* COMMON */
+
+.container {
+
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px dashed black; */
+}
+
+.main {
+    height: 200px;
+}
+
+.main-container {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px dashed black;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+/* UTILITIES */
+
+/* backgrounds */
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-dgreen {
+    background-color: darkgreen;
+}
+
+.twhite {
+    color:white;
+}
+
+/* paddings */
+.p-30 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* heights */
+.h-350 {
+    height: 350px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+/* width */
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+/* borders */
+.border {
+    border: 1px dashed black;
+}
+
+/* flex propreties */
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* CUSTOM PROPRIERTIES */
+
+
+
+
+/* HEADER  */
+/* Creo header */
+.header {
+    background-color: rgba(37,94,233,255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* creo barra di navigazione */
+.nav-container {
+    /* background-color: orange; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color:white;
+    /* border: 1px dashed black; */
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 165, 0);
+    /* border: 1px dashed black; */
+
+}
+
+.logo {
+    flex-basis: 20%;
+    padding: 10px;
+    padding-left: 0px;
+    /* border: 1px dashed black; */
+    text-align: left;
+
+}
+
+.login {
+    /* display: flex; */
+    flex-basis: 20%;
+    /* justify-content: center; */
+    padding: 10px;
+    padding-right: 0px;
+    text-align: right;
+    /* border: 1px dashed black; */
+    color: white;
+    background-color: rgba(37,94,233,255);
+}
+
+.login a{
+  color: black;
+  padding:10px;
+  height:50%;
+  width: 50%;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+}
+
+.link-container a {
+    flex-basis: 60%;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* CREO SEZIONE IN EVIDENZA */
+.in-evidenza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 135);
+    height: 200px;
+}
+
+.pinkbox {
+    display: flex;
+    width: 60%;
+    height: 150px;
+    background-color: fuchsia;
+}
+
+/* CREO MAIN */
+
+.two-col-1 {
+    width: 40%;
+    background: lightpink;
+    border: 1px dashed black;
+}
+
+.two-col-2 {
+    width: 60%;
+    background: lightblue;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    height: 100%;
+}
+
+.footer-top {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    height: 300px;
+}
+
+.col-left {
+    background-color: rgb(214, 139, 152);
+    border: 1px dashed black;
+}
+
+.col-right {
+    background-color: lightblue;
+}
+
+.col-right>* {
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+.footer-bottom {
+    background-color: aquamarine;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer-bottom>* {
+    background-color: pink;
+    color: black;
+    border: 1px dashed black;
+
+}
