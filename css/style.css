@@ -16,8 +16,10 @@ ul {
 }
 
 a {
-    text-decoration: none;;
+    text-decoration: none;
+    ;
 }
+
 
 /* COMMON */
 
@@ -60,7 +62,7 @@ a {
 }
 
 .twhite {
-    color:white;
+    color: white;
 }
 
 /* paddings */
@@ -69,6 +71,10 @@ a {
     padding-top: 30px;
 }
 
+/* margins */
+.ml-40 {
+    margin-left: 40px;
+}
 /* heights */
 .h-350 {
     height: 350px;
@@ -97,6 +103,26 @@ a {
     flex-direction: row-reverse;
 }
 
+.buttons-white {
+    margin-right: 30px;
+    padding:10px;
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.buttons-dark {
+    margin-right: 30px;
+    padding:10px;
+    color: white;
+    background-color: rgba(35,39,42,255);
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+
 /* CUSTOM PROPRIERTIES */
 
 
@@ -105,7 +131,7 @@ a {
 /* HEADER  */
 /* Creo header */
 .header {
-    background-color: rgba(37,94,233,255);
+    background-color: rgba(37, 94, 233, 255);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -116,7 +142,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color:white;
+    color: white;
     /* border: 1px dashed black; */
 }
 
@@ -148,18 +174,18 @@ a {
     text-align: right;
     /* border: 1px dashed black; */
     color: white;
-    background-color: rgba(37,94,233,255);
+    background-color: rgba(37, 94, 233, 255);
 }
 
-.login a{
-  color: black;
-  padding:10px;
-  height:50%;
-  width: 50%;
-  border-radius: 20px;
-  display: inline-block;
-  text-align: center;
-  background-color: white;
+.login a {
+    color: black;
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
 }
 
 .link-container a {
@@ -171,19 +197,40 @@ a {
 
 /* CREO SEZIONE IN EVIDENZA */
 .in-evidenza {
+    width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(14, 14, 135);
-    height: 200px;
 }
 
 .pinkbox {
-    display: flex;
+    text-align: center;
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 80px;
     width: 60%;
-    height: 150px;
-    background-color: fuchsia;
+    /* height: 150px; */
+    /* background-color: fuchsia; */
 }
+
+.pinkbox-buttons {
+    margin-top:10px;
+}
+
+.hero-title {
+    margin-top:50px;
+    font-size: 2rem;
+    color:white;
+}
+.hero-caption {
+    color: white;
+    line-height: 1.5rem;
+    padding: 30px;
+}
+
 
 /* CREO MAIN */
 
