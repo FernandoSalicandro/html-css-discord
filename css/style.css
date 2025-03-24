@@ -317,18 +317,41 @@ footer {
     height: 300px;
 }
 
+.translator {
+    background-image: url(../img/ita.png);
+background-repeat: no-repeat;
+color: rgba(114,137,218,255);
+}
 .col-left {
-    background-color: rgb(214, 139, 152);
+    /* background-color: rgb(214, 139, 152); */
     border: 1px dashed black;
+    flex-direction: column;
 }
 
+.col-left p {
+   color: rgba(114,137,218,255);
+}
 .col-right {
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .col-right>* {
     flex-grow: 1;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+.five-col p {
+color: rgba(114,137,218,255);
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.social-logo i {
+    margin-right:10px;
+    margin-top: 10px;
 }
 
 .footer-bottom {
