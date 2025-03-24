@@ -20,7 +20,11 @@ a {
     ;
 }
 
-
+    h3 {
+        margin-top: 20px;
+        font-weight: 100;
+        font-size : 16px
+        }
 /* COMMON */
 
 .container {
@@ -54,7 +58,7 @@ a {
 }
 
 .bg-grey {
-    background-color: grey;
+    background-color: rgba(246,246,246,255);
 }
 
 .bg-dgreen {
@@ -80,9 +84,9 @@ a {
     height: 350px;
 }
 
-.h200 {
+/* .h200 {
     height: 200px;
-}
+} */
 
 /* width */
 .w-30 {
@@ -235,14 +239,20 @@ a {
 /* CREO MAIN */
 
 .two-col-1 {
+   
     width: 40%;
-    background: lightpink;
-    border: 1px dashed black;
+    /* background: lightpink; */
+    /* border: 1px dashed black; */
 }
 
 .two-col-2 {
+    background-image: url('../img/item1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
     width: 60%;
-    background: lightblue;
+    /* background: lightblue; */
 }
 
 
