@@ -137,6 +137,16 @@ a {
     border-radius: 20px;
 }
 
+.buttons-cta {
+    margin-right: 30px;
+    padding:10px;
+    color: white;
+    background-color: rgba(114,137,218,255);
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+
 
 /* CUSTOM PROPRIERTIES */
 
